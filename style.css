@@ -10,7 +10,7 @@ color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./img/SL-043021-42650-28.jpg);
+    background-image: url(./SL-043021-42650-28.jpg);
     background-size: 350%;
 }
 .cardcontent{
@@ -46,7 +46,7 @@ color: #fff;
 .profil{
     position: absolute;
     transform: translateY(-90px);
-    background-image: url(/img/Ario.jpg);
+    background-image: url(/Ario.jpg);
     background-position: top;
     background-size: cover;
     height: 150px;
