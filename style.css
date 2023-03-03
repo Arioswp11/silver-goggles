@@ -1,0 +1,99 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+}
+.container{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/SL-043021-42650-28.jpg);
+    background-size: 350%;
+}
+.cardcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: transparent;
+    width: 250px;
+    height: 200px;
+    align-items: center;
+    transform: 0.7s;
+    border: 3px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cardcontent:hover {
+    height: 420px;
+    box-shadow: 0 0 10px #fff,
+        inset 0 0 10px #fff;
+}
+.cardcontent p { 
+    margin-top: 100px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.cardcontent:hover p{
+    letter-spacing: 8px;
+}
+.profil{
+    position: absolute;
+    transform: translateY(-90px);
+    background-image: url(/img/Ario.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    border: 3px solid #fff;
+    transition: 0.8s;
+}
+.cardcontent:hover .profil{
+    box-shadow: 0 0 10 #fff,
+    inset 0 0 10px #fff;
+    transform:scale(130%) translateY(-90px);
+}
+.cardlink {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.7s;
+}
+.cardcontent:hover .cardlink {
+    margin-top: 0;
+}
+.link {
+    margin-top: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding: 5px 50px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 34px;
+    border: 2px solid #fff;
+    transition: 0.3s;
+    font-size: 15px;
+}
+.link:hover {
+    box-shadow: 0 0 10 #fff,
+    inset 0 0 10px #fff;
+    letter-spacing: 3px;
+    background: #fff;
+    color: #000;
+}
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
